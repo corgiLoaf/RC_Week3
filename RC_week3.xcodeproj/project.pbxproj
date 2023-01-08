@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		520AD87129675E5600AB2928 /* ChatMockUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520AD87029675E5600AB2928 /* ChatMockUp.swift */; };
+		520AD8742967636200AB2928 /* ChatTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520AD8722967636200AB2928 /* ChatTVC.swift */; };
+		520AD8752967636200AB2928 /* ChatTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 520AD8732967636200AB2928 /* ChatTVC.xib */; };
+		520AD8772967927B00AB2928 /* MyCarrotProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520AD8762967927B00AB2928 /* MyCarrotProfileView.swift */; };
+		520AD87C2967978200AB2928 /* menuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520AD87A2967978200AB2928 /* menuCell.swift */; };
+		520AD87D2967978200AB2928 /* menuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 520AD87B2967978200AB2928 /* menuCell.xib */; };
+		520AD87F296798C500AB2928 /* menuData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520AD87E296798C400AB2928 /* menuData.swift */; };
+		520AD8822968705B00AB2928 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520AD8802968705A00AB2928 /* Item+CoreDataClass.swift */; };
+		520AD8832968705B00AB2928 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520AD8812968705A00AB2928 /* Item+CoreDataProperties.swift */; };
+		520AD8852968709500AB2928 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520AD8842968709500AB2928 /* DBManager.swift */; };
+		520AD8B02968B7BE00AB2928 /* EditingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520AD8AF2968B7BE00AB2928 /* EditingVC.swift */; };
 		5251222D29601C7F009628BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251222C29601C7F009628BD /* AppDelegate.swift */; };
 		5251222F29601C7F009628BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251222E29601C7F009628BD /* SceneDelegate.swift */; };
 		5251223129601C7F009628BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251223029601C7F009628BD /* ViewController.swift */; };
@@ -17,6 +28,22 @@
 		5251224729601C81009628BD /* RC_week3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251224629601C81009628BD /* RC_week3Tests.swift */; };
 		5251225129601C81009628BD /* RC_week3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251225029601C81009628BD /* RC_week3UITests.swift */; };
 		5251225329601C81009628BD /* RC_week3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5251225229601C81009628BD /* RC_week3UITestsLaunchTests.swift */; };
+		5269CECF296522820021DEF2 /* navBarTownLifeSetUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269CECE296522820021DEF2 /* navBarTownLifeSetUp.swift */; };
+		5269CED6296523700021DEF2 /* NearByVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269CED5296523700021DEF2 /* NearByVC.swift */; };
+		5269CED82965237D0021DEF2 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269CED72965237D0021DEF2 /* ChatVC.swift */; };
+		5269CEDA2965238B0021DEF2 /* MyCarrotVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269CED92965238B0021DEF2 /* MyCarrotVC.swift */; };
+		5269CEDC2965247D0021DEF2 /* VC+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269CEDB2965247D0021DEF2 /* VC+Ext.swift */; };
+		5269CEDE2965251E0021DEF2 /* navBarWithNearBySetUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269CEDD2965251E0021DEF2 /* navBarWithNearBySetUp.swift */; };
+		5269CEE0296526390021DEF2 /* navBarWithChat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269CEDF296526390021DEF2 /* navBarWithChat.swift */; };
+		5269CEE22965264E0021DEF2 /* NavBarWithMyCarrot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269CEE12965264E0021DEF2 /* NavBarWithMyCarrot.swift */; };
+		5269CEE6296617190021DEF2 /* Datas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269CEE5296617190021DEF2 /* Datas.swift */; };
+		5269CEE82967172E0021DEF2 /* WritingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5269CEE72967172E0021DEF2 /* WritingVC.swift */; };
+		52A693FB2964C6DF0038E885 /* TownLifeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A693FA2964C6DF0038E885 /* TownLifeVC.swift */; };
+		52A693FD2964CA4F0038E885 /* HomeNavCtrlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A693FC2964CA4F0038E885 /* HomeNavCtrlViewController.swift */; };
+		52A694012964CF210038E885 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A694002964CF210038E885 /* HomeVC.swift */; };
+		52A694082964D8890038E885 /* UINavigationItem+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A694072964D8890038E885 /* UINavigationItem+Extensions.swift */; };
+		52A6940B2964E0970038E885 /* HomeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A694092964E0970038E885 /* HomeTableCell.swift */; };
+		52A6940C2964E0970038E885 /* HomeTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52A6940A2964E0970038E885 /* HomeTableCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +64,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		520AD87029675E5600AB2928 /* ChatMockUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMockUp.swift; sourceTree = "<group>"; };
+		520AD8722967636200AB2928 /* ChatTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatTVC.swift; sourceTree = "<group>"; };
+		520AD8732967636200AB2928 /* ChatTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChatTVC.xib; sourceTree = "<group>"; };
+		520AD8762967927B00AB2928 /* MyCarrotProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarrotProfileView.swift; sourceTree = "<group>"; };
+		520AD87A2967978200AB2928 /* menuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuCell.swift; sourceTree = "<group>"; };
+		520AD87B2967978200AB2928 /* menuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = menuCell.xib; sourceTree = "<group>"; };
+		520AD87E296798C400AB2928 /* menuData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuData.swift; sourceTree = "<group>"; };
+		520AD8802968705A00AB2928 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		520AD8812968705A00AB2928 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		520AD8842968709500AB2928 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		520AD8AF2968B7BE00AB2928 /* EditingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingVC.swift; sourceTree = "<group>"; };
 		5251222929601C7F009628BD /* RC_week3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RC_week3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5251222C29601C7F009628BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5251222E29601C7F009628BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +89,22 @@
 		5251224C29601C81009628BD /* RC_week3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RC_week3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5251225029601C81009628BD /* RC_week3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RC_week3UITests.swift; sourceTree = "<group>"; };
 		5251225229601C81009628BD /* RC_week3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RC_week3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5269CECE296522820021DEF2 /* navBarTownLifeSetUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navBarTownLifeSetUp.swift; sourceTree = "<group>"; };
+		5269CED5296523700021DEF2 /* NearByVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearByVC.swift; sourceTree = "<group>"; };
+		5269CED72965237D0021DEF2 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		5269CED92965238B0021DEF2 /* MyCarrotVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCarrotVC.swift; sourceTree = "<group>"; };
+		5269CEDB2965247D0021DEF2 /* VC+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VC+Ext.swift"; sourceTree = "<group>"; };
+		5269CEDD2965251E0021DEF2 /* navBarWithNearBySetUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navBarWithNearBySetUp.swift; sourceTree = "<group>"; };
+		5269CEDF296526390021DEF2 /* navBarWithChat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = navBarWithChat.swift; sourceTree = "<group>"; };
+		5269CEE12965264E0021DEF2 /* NavBarWithMyCarrot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarWithMyCarrot.swift; sourceTree = "<group>"; };
+		5269CEE5296617190021DEF2 /* Datas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datas.swift; sourceTree = "<group>"; };
+		5269CEE72967172E0021DEF2 /* WritingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritingVC.swift; sourceTree = "<group>"; };
+		52A693FA2964C6DF0038E885 /* TownLifeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TownLifeVC.swift; sourceTree = "<group>"; };
+		52A693FC2964CA4F0038E885 /* HomeNavCtrlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeNavCtrlViewController.swift; sourceTree = "<group>"; };
+		52A694002964CF210038E885 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		52A694072964D8890038E885 /* UINavigationItem+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationItem+Extensions.swift"; sourceTree = "<group>"; };
+		52A694092964E0970038E885 /* HomeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableCell.swift; sourceTree = "<group>"; };
+		52A6940A2964E0970038E885 /* HomeTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeTableCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +155,15 @@
 		5251222B29601C7F009628BD /* RC_week3 */ = {
 			isa = PBXGroup;
 			children = (
+				520AD8802968705A00AB2928 /* Item+CoreDataClass.swift */,
+				520AD8812968705A00AB2928 /* Item+CoreDataProperties.swift */,
+				520AD8842968709500AB2928 /* DBManager.swift */,
+				52A694022964D4C20038E885 /* NavigationBar */,
+				52A693F82964C61E0038E885 /* Home */,
+				52A693F92964C6C20038E885 /* TownLife */,
+				5269CED02965231D0021DEF2 /* NearBy */,
+				5269CED1296523340021DEF2 /* Chat */,
+				5269CED22965233A0021DEF2 /* MyCarrot */,
 				5251222C29601C7F009628BD /* AppDelegate.swift */,
 				5251222E29601C7F009628BD /* SceneDelegate.swift */,
 				5251223029601C7F009628BD /* ViewController.swift */,
@@ -128,6 +191,72 @@
 				5251225229601C81009628BD /* RC_week3UITestsLaunchTests.swift */,
 			);
 			path = RC_week3UITests;
+			sourceTree = "<group>";
+		};
+		5269CED02965231D0021DEF2 /* NearBy */ = {
+			isa = PBXGroup;
+			children = (
+				5269CED5296523700021DEF2 /* NearByVC.swift */,
+				5269CEDD2965251E0021DEF2 /* navBarWithNearBySetUp.swift */,
+			);
+			path = NearBy;
+			sourceTree = "<group>";
+		};
+		5269CED1296523340021DEF2 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				5269CED72965237D0021DEF2 /* ChatVC.swift */,
+				5269CEDF296526390021DEF2 /* navBarWithChat.swift */,
+				520AD87029675E5600AB2928 /* ChatMockUp.swift */,
+				520AD8722967636200AB2928 /* ChatTVC.swift */,
+				520AD8732967636200AB2928 /* ChatTVC.xib */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		5269CED22965233A0021DEF2 /* MyCarrot */ = {
+			isa = PBXGroup;
+			children = (
+				5269CED92965238B0021DEF2 /* MyCarrotVC.swift */,
+				5269CEE12965264E0021DEF2 /* NavBarWithMyCarrot.swift */,
+				520AD8762967927B00AB2928 /* MyCarrotProfileView.swift */,
+				520AD87A2967978200AB2928 /* menuCell.swift */,
+				520AD87B2967978200AB2928 /* menuCell.xib */,
+				520AD87E296798C400AB2928 /* menuData.swift */,
+			);
+			path = MyCarrot;
+			sourceTree = "<group>";
+		};
+		52A693F82964C61E0038E885 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				52A693FC2964CA4F0038E885 /* HomeNavCtrlViewController.swift */,
+				52A694002964CF210038E885 /* HomeVC.swift */,
+				52A694092964E0970038E885 /* HomeTableCell.swift */,
+				52A6940A2964E0970038E885 /* HomeTableCell.xib */,
+				5269CEE5296617190021DEF2 /* Datas.swift */,
+				5269CEE72967172E0021DEF2 /* WritingVC.swift */,
+				520AD8AF2968B7BE00AB2928 /* EditingVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		52A693F92964C6C20038E885 /* TownLife */ = {
+			isa = PBXGroup;
+			children = (
+				52A693FA2964C6DF0038E885 /* TownLifeVC.swift */,
+				5269CECE296522820021DEF2 /* navBarTownLifeSetUp.swift */,
+			);
+			path = TownLife;
+			sourceTree = "<group>";
+		};
+		52A694022964D4C20038E885 /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				52A694072964D8890038E885 /* UINavigationItem+Extensions.swift */,
+				5269CEDB2965247D0021DEF2 /* VC+Ext.swift */,
+			);
+			path = NavigationBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +366,9 @@
 				5251223C29601C80009628BD /* LaunchScreen.storyboard in Resources */,
 				5251223929601C80009628BD /* Assets.xcassets in Resources */,
 				5251223429601C7F009628BD /* Main.storyboard in Resources */,
+				520AD8752967636200AB2928 /* ChatTVC.xib in Resources */,
+				520AD87D2967978200AB2928 /* menuCell.xib in Resources */,
+				52A6940C2964E0970038E885 /* HomeTableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,9 +393,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				520AD87F296798C500AB2928 /* menuData.swift in Sources */,
+				5269CEE82967172E0021DEF2 /* WritingVC.swift in Sources */,
+				52A6940B2964E0970038E885 /* HomeTableCell.swift in Sources */,
+				520AD8B02968B7BE00AB2928 /* EditingVC.swift in Sources */,
 				5251223729601C7F009628BD /* RC_week3.xcdatamodeld in Sources */,
+				520AD8772967927B00AB2928 /* MyCarrotProfileView.swift in Sources */,
+				52A693FB2964C6DF0038E885 /* TownLifeVC.swift in Sources */,
+				5269CEE22965264E0021DEF2 /* NavBarWithMyCarrot.swift in Sources */,
 				5251223129601C7F009628BD /* ViewController.swift in Sources */,
+				5269CEDE2965251E0021DEF2 /* navBarWithNearBySetUp.swift in Sources */,
+				520AD8742967636200AB2928 /* ChatTVC.swift in Sources */,
+				5269CEE0296526390021DEF2 /* navBarWithChat.swift in Sources */,
+				52A693FD2964CA4F0038E885 /* HomeNavCtrlViewController.swift in Sources */,
+				5269CECF296522820021DEF2 /* navBarTownLifeSetUp.swift in Sources */,
+				5269CED82965237D0021DEF2 /* ChatVC.swift in Sources */,
+				5269CEDA2965238B0021DEF2 /* MyCarrotVC.swift in Sources */,
 				5251222D29601C7F009628BD /* AppDelegate.swift in Sources */,
+				5269CED6296523700021DEF2 /* NearByVC.swift in Sources */,
+				5269CEDC2965247D0021DEF2 /* VC+Ext.swift in Sources */,
+				520AD8832968705B00AB2928 /* Item+CoreDataProperties.swift in Sources */,
+				520AD87C2967978200AB2928 /* menuCell.swift in Sources */,
+				5269CEE6296617190021DEF2 /* Datas.swift in Sources */,
+				520AD8822968705B00AB2928 /* Item+CoreDataClass.swift in Sources */,
+				520AD8852968709500AB2928 /* DBManager.swift in Sources */,
+				52A694012964CF210038E885 /* HomeVC.swift in Sources */,
+				52A694082964D8890038E885 /* UINavigationItem+Extensions.swift in Sources */,
+				520AD87129675E5600AB2928 /* ChatMockUp.swift in Sources */,
 				5251222F29601C7F009628BD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="chatCell" rowHeight="281" id="KGk-i7-Jjw" customClass="ChatTVC" customModule="RC_week3" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="917" height="281"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="917" height="281"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Dq0-sZ-5Nb" userLabel="greenStack">
+                        <rect key="frame" x="20" y="10" width="877" height="261"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="K8p-Bg-Lud" userLabel="Profile">
+                                <rect key="frame" x="0.0" y="10" width="241" height="241"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="K8p-Bg-Lud" secondAttribute="height" multiplier="1:1" id="elg-tS-rYq"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="d7P-Wa-XCe" userLabel="orangeView">
+                                <rect key="frame" x="251" y="0.0" width="375" height="261"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Wet-uW-laq" userLabel="blueStack">
+                                        <rect key="frame" x="0.0" y="10" width="375" height="241"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="V31-7V-fjK">
+                                                <rect key="frame" x="0.0" y="0.0" width="118" height="20.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="리버" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="has-XM-QAG" userLabel="닉네임">
+                                                        <rect key="frame" x="0.0" y="0.5" width="28" height="19.5"/>
+                                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="16"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="안암동" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RIS-cf-Br0" userLabel="동네">
+                                                        <rect key="frame" x="34" y="3" width="31.5" height="14.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="∙" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VyU-Ts-Aa7">
+                                                        <rect key="frame" x="71.5" y="0.0" width="10.5" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1일 전" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jfl-HF-3d7" userLabel="날짜">
+                                                        <rect key="frame" x="88" y="3" width="30" height="14.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is test label of chatting tab table view cell." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h7l-Ht-yV1">
+                                                <rect key="frame" x="0.0" y="224" width="302" height="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Wet-uW-laq" secondAttribute="trailing" id="4Aw-XX-Zsq"/>
+                                    <constraint firstItem="Wet-uW-laq" firstAttribute="leading" secondItem="d7P-Wa-XCe" secondAttribute="leading" id="5th-TN-TSV"/>
+                                    <constraint firstItem="Wet-uW-laq" firstAttribute="top" secondItem="d7P-Wa-XCe" secondAttribute="top" constant="10" id="8Q7-xD-jYM"/>
+                                    <constraint firstAttribute="bottom" secondItem="Wet-uW-laq" secondAttribute="bottom" constant="10" id="FO1-QT-Rxn"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="feh-xa-5L6" userLabel="ItemIMG">
+                                <rect key="frame" x="636" y="10" width="241" height="241"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="feh-xa-5L6" secondAttribute="height" multiplier="1:1" id="DpU-ol-KP5"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="K8p-Bg-Lud" firstAttribute="top" secondItem="Dq0-sZ-5Nb" secondAttribute="top" constant="10" id="0ul-kH-aCB"/>
+                            <constraint firstItem="d7P-Wa-XCe" firstAttribute="leading" secondItem="K8p-Bg-Lud" secondAttribute="trailing" constant="10" id="2tn-lO-kgI"/>
+                            <constraint firstItem="feh-xa-5L6" firstAttribute="leading" secondItem="d7P-Wa-XCe" secondAttribute="trailing" constant="10" id="Meg-2C-7Ip"/>
+                            <constraint firstAttribute="bottom" secondItem="K8p-Bg-Lud" secondAttribute="bottom" constant="10" id="W14-wq-xLS"/>
+                            <constraint firstItem="feh-xa-5L6" firstAttribute="top" secondItem="Dq0-sZ-5Nb" secondAttribute="top" constant="10" id="ncz-DZ-MU1"/>
+                            <constraint firstItem="d7P-Wa-XCe" firstAttribute="top" secondItem="Dq0-sZ-5Nb" secondAttribute="top" id="oR3-nZ-cay"/>
+                            <constraint firstAttribute="bottom" secondItem="d7P-Wa-XCe" secondAttribute="bottom" id="pNu-Rq-VeB"/>
+                            <constraint firstAttribute="bottom" secondItem="feh-xa-5L6" secondAttribute="bottom" constant="10" id="x6L-kp-9ff"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Dq0-sZ-5Nb" secondAttribute="trailing" constant="20" symbolic="YES" id="DEz-w3-jUz"/>
+                    <constraint firstItem="Dq0-sZ-5Nb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="O6n-hd-nV2"/>
+                    <constraint firstItem="Dq0-sZ-5Nb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="hPf-mC-S65"/>
+                    <constraint firstAttribute="bottom" secondItem="Dq0-sZ-5Nb" secondAttribute="bottom" constant="10" id="uUf-95-OjV"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="chatDate" destination="jfl-HF-3d7" id="5fq-Sd-7Kh"/>
+                <outlet property="chatLoc" destination="RIS-cf-Br0" id="eNC-Vh-fgE"/>
+                <outlet property="itemIMG" destination="feh-xa-5L6" id="iy5-Rd-sJU"/>
+                <outlet property="message" destination="h7l-Ht-yV1" id="GTZ-pj-b2x"/>
+                <outlet property="nickname" destination="has-XM-QAG" id="YKa-Sv-bxh"/>
+                <outlet property="profile" destination="K8p-Bg-Lud" id="tPJ-C7-lJJ"/>
+            </connections>
+            <point key="canvasLocation" x="594.92753623188412" y="175.78125"/>
+        </tableViewCell>
+    </objects>
+</document>
